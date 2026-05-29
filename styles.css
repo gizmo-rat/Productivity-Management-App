@@ -1,0 +1,48 @@
+.test {
+    color:aliceblue;
+    background-color:darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+h1 {
+    color:aliceblue;
+    background-color:darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    padding: 0px;
+    border: 2px solid aliceblue;
+    color:aliceblue;
+    background-color:darkslategray;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.centered-div {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color:darkslategray;
+    display : flex;
+    flex-direciton: column;
+
+}
+
+.top-section {
+    display:flex;
+}
+
+.right-side {
+    padding : 40px;
+    display : flex;
+    flex-direction: right;
+}
